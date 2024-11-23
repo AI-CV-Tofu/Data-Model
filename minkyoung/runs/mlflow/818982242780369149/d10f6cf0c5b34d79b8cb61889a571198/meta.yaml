@@ -1,0 +1,15 @@
+artifact_uri: /home/ec2-user/SageMaker/minkyoung/runs/mlflow/818982242780369149/d10f6cf0c5b34d79b8cb61889a571198/artifacts
+end_time: 1732303821121
+entry_point_name: ''
+experiment_id: '818982242780369149'
+lifecycle_stage: active
+run_id: d10f6cf0c5b34d79b8cb61889a571198
+run_name: 7class_640_re_100
+run_uuid: d10f6cf0c5b34d79b8cb61889a571198
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732302099149
+status: 3
+tags: []
+user_id: ec2-user

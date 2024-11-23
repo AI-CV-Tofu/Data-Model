@@ -1,0 +1,6 @@
+train: /home/ec2-user/SageMaker/7class_640/train/images
+val: /home/ec2-user/SageMaker/7class_640/valid/images
+test: /home/ec2-user/SageMaker/7class_640/test/images
+
+nc: 7
+names: ["bubble", "chip", "cut", "debris", "dent", "line", "spot"]
