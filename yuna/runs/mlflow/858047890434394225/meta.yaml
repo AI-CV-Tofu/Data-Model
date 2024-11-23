@@ -1,0 +1,6 @@
+artifact_location: /home/ec2-user/SageMaker/yuna/runs/mlflow/858047890434394225
+creation_time: 1732211130384
+experiment_id: '858047890434394225'
+last_update_time: 1732211130384
+lifecycle_stage: active
+name: yolov11s

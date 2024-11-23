@@ -1,0 +1,18 @@
+names:
+- bubble
+- chip
+- cut
+- debris
+- dent
+- line
+- spot
+nc: 7
+roboflow:
+  license: Private
+  project: cv_tofu
+  url: https://app.roboflow.com/awscv/cv_tofu/3
+  version: 3
+  workspace: awscv
+test: ../test/images
+train: s3://square-tofu/7class_640/train/images/
+val: s3://square-tofu/7class_640/valid/images/
