@@ -1,0 +1,6 @@
+artifact_location: /home/ec2-user/SageMaker/seohyeon/runs/mlflow/904338308590583900
+creation_time: 1732157821667
+experiment_id: '904338308590583900'
+last_update_time: 1732157821667
+lifecycle_stage: active
+name: yolov11s
