@@ -1,0 +1,15 @@
+artifact_uri: /home/ec2-user/SageMaker/yoonju/runs/mlflow/701373720148401829/61ebb10150ed4c0dab0931ab3d630ba4/artifacts
+end_time: 1732220188880
+entry_point_name: ''
+experiment_id: '701373720148401829'
+lifecycle_stage: active
+run_id: 61ebb10150ed4c0dab0931ab3d630ba4
+run_name: 7class_640_re
+run_uuid: 61ebb10150ed4c0dab0931ab3d630ba4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732218730227
+status: 3
+tags: []
+user_id: ec2-user
