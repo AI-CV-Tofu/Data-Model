@@ -61,10 +61,7 @@
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FeOLCCS%2Fbtrhy2uohzQ%2FMnWjo9wSCidNHaL3kM4ik0%2Fimg.png" alt="Precision" height="80">
 
 ---
-**P-R Curve(Precision-Recall Curve)** : Recall의 변화에 따른 Precision을 나타낸 곡선(x축이 Recall, y축이 Precision)<br>
-이 곡선은 분류기의 양성 클래스 성능을 세밀하게 분석하며, True Positive(TP), False Positive(FP), False Negative(FN) 메트릭을 기반으로 계산됩니다. x축은 Recall, y축은 Precision으로 구성되어 모델의 성능을 시각적으로 표현합니다.<br>
-주요 특징은 분류기의 신뢰도(Confidence) 임계값을 변경하면서 Precision과 Recall의 변화를 관찰하는 것입니다. 임계값이 낮아질수록 Recall은 증가하지만 Precision은 감소하는 트레이드오프 관계를 명확하게 보여줍니다. 이는 True Negative(TN)에 의존하지 않고 양성 클래스의 성능만을 집중적으로 평가하기 때문에, 전통적인 정확도(Accuracy) 메트릭보다 더 신뢰성 있는 평가 방법입니다.<br>
-곡선 해석에서는 왼쪽 위 모서리(Precision = 1, Recall = 1)에 가까울수록 모델의 성능이 우수함을 의미합니다. 곡선 아래 면적(Area Under Curve, AUC)을 통해 모델의 전반적인 성능을 단일 값으로 요약할 수 있어, 특히 양성 클래스가 희소한 영역에서 매우 유용하게 활용됩니다.
+**P-R Curve(Precision-Recall Curve)** : Recall과 Precision을 x축과 y축으로 하여 분류기의 양성 클래스 성능을 분석하는 시각화 도구입니다. TP, FP, FN 메트릭을 기반으로 계산되며, 임계값 변화에 따른 두 지표의 트레이드오프 관계를 보여줍니다. TN에 의존하지 않아 불균형 데이터셋 평가에 적합하며, 곡선이 왼쪽 위 모서리(1,1)에 가까울수록 우수한 성능을 의미합니다. 곡선 아래 면적(AUC)으로 전반적 성능을 단일 값으로 평가할 수 있어 정확도보다 신뢰성 있는 평가가 가능합니다.
 
 ---
 **AP(Average Precision)** : Precision-Recall Curve 아래 면적을 계산하여 모델의 전반적인 성능을 0에서 1 사이의 단일 값으로 요약하는 지표<br>
