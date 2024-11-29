@@ -25,10 +25,14 @@
 | 이물질      | <img src="https://github.com/user-attachments/assets/e3988f18-a058-4c70-819c-e4bbb9222cf8" alt="이물질" height="50"> |
 
 ### 데이터 변환 시도
-- 색공간
-<img src="https://github.com/user-attachments/assets/ce75a673-a60b-4b86-9877-2745c26f1a6c" alt="색공간" height="300">
-- 대비 조정
-- 이진화 및 컨투어 추출
+
+| 단계                      | 이미지                                                                                                      |
+|---------------------------|-------------------------------------------------------------------------------------------------------------|
+| 색공간                   | <img src="https://github.com/user-attachments/assets/ce75a673-a60b-4b86-9877-2745c26f1a6c" alt="색공간" height="300"> |
+| 대비 조정                | <img src="https://github.com/user-attachments/assets/1f036725-4be8-4590-b933-8592c04e3641" alt="대비 조정 1" height="150"> <img src="https://github.com/user-attachments/assets/aef78c82-1606-4c8e-b5aa-3b7e5f856d0a" alt="대비 조정 2" height="150"> |
+| 임계값 설정 및 컨투어 추출 | <img src="https://github.com/user-attachments/assets/cdcf2029-007e-4fad-b6b5-ea98172ba3c5" alt="임계값 설정 1" height="150"> <img src="https://github.com/user-attachments/assets/27a844a3-0583-4598-b180-272dcc2ce222" alt="컨투어 추출" height="150"> <img src="https://github.com/user-attachments/assets/7ec4b7c4-b3ec-430a-968f-02e39060d11f" alt="임계값 설정 2" height="300"> |
+
+
 
 ## 데이터 셋 구축 (총 5세트)
 - **2 class** (inner defect, outer defect) 640sz, 1389sz
@@ -79,7 +83,7 @@
 - 남은 상자들 중 다음으로 높은 confidence score를 가진 상자를 선택하고 과정을 반복합니다.
 ```
 
-## 성능 지표
+## 성능 평가 지표
 ### mAP
 mAP는 재현율(Recall)과 정밀도(Precision)의 균형을 종합적으로 평가하는 지표입니다. 단순히 한 가지 메트릭에 의존하지 않고, 모델이 얼마나 정확하게(Precision) 그리고 얼마나 빠짐없이(Recall) 객체를 탐지하는지를 동시에 고려합니다. 이를 통해 모델의 성능을 보다 균형 잡히고 신뢰성 있게 측정할 수 있어, 이 지표를 선택하였습니다.
 
