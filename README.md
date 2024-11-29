@@ -24,6 +24,12 @@
 | 라인        | <img src="https://github.com/user-attachments/assets/081d2158-4208-4929-a633-e767682b2cca" alt="라인"> |
 | 이물질      | <img src="https://github.com/user-attachments/assets/e3988f18-a058-4c70-819c-e4bbb9222cf8" alt="이물질" height="50"> |
 
+| 결함 유형   | 이미지 |
+|-------------|--------|
+| inner defect        | <img src="https://github.com/user-attachments/assets/00be45de-1a0a-4795-8612-a7c57c1617f6" alt="기포" height="150"> |
+| outer defect | <img src="https://github.com/user-attachments/assets/fcb43fb9-9c68-44fb-8dc8-9baf7fea8bbd" alt="모서리" height="150"> |
+
+
 ### 데이터 변환 시도
 
 | 단계                      | 이미지                                                                                                      |
